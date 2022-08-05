@@ -16,6 +16,7 @@ app.use(express.static(__dirname));
 
 //routes
 app.get("/", (req, res) => {
+
     res.render('index');
 });
 
